@@ -1,7 +1,3 @@
-"""Multi-client chat server. Every message on the wire is Fernet-encrypted.
-
-Usage: python server.py [host] [port]
-"""
 import socket
 import sys
 import threading
