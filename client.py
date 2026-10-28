@@ -1,7 +1,3 @@
-"""Tkinter chat client. Needs secret.key (copied from the server) next to it.
-
-Usage: python client.py
-"""
 import queue
 import socket
 import threading
