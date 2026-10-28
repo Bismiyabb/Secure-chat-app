@@ -15,9 +15,9 @@ python server.py            # creates secret.key
 # copy secret.key into the client's folder (same folder on one PC)
 python client.py            # run in 2+ terminals
 ```
-Tkinter ships with Python (on Linux: `sudo apt install python3-tk`).
 
-## Limitations (good to mention in interviews)
+
+## Limitations 
 - Pre-shared symmetric key: no key exchange. A real system would use RSA/ECDH or TLS.
 - No user authentication or message history.
 - Fernet gives confidentiality + integrity, but not forward secrecy.
